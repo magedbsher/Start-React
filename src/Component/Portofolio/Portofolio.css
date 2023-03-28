@@ -1,0 +1,45 @@
+#portofolio h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    position: relative;
+  }
+  
+  
+  #portofolio h2::after {
+      background-color: black;
+      content: "";
+      position: absolute;
+      width: 15%;
+      height: 5px;
+      bottom: -25%;
+      left: 33%;
+      border-radius: 10px;
+    }
+    #portofolio h2::before {
+      background-color: black;
+      content: "";
+      position: absolute;
+      width: 15%;
+      height: 5px;
+      bottom: -25%;
+      right: 33%;
+      border-radius: 10px;
+    }
+  
+  .image-holder {
+    overflow: hidden;
+    position: relative;
+  }
+  .layer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .image-holder:hover .layer {
+    background-color: rgba(20, 143, 119, 0.9);
+    opacity: 1;
+  }

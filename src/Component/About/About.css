@@ -1,0 +1,37 @@
+#about{
+    background-color: rgb(20, 143, 119);
+height: 80vh;
+}
+
+#about h2{
+    font-size: 5rem;
+font-weight: 700;
+position: relative;
+
+}
+
+
+#about h2::after {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    bottom: -20%;
+    left: 33%;
+    border-radius: 10px;
+  }
+  
+  #about h2::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    bottom: -20%;
+    right: 33%;
+    border-radius: 10px;
+  }
+
+
+

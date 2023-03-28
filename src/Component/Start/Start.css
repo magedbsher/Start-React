@@ -1,0 +1,43 @@
+#start {
+  padding-block: 5rem;
+    background-color: rgb(20, 143, 119);
+    height: 100vh;
+  }
+  
+  #start img {
+    max-width: 15%;
+  }
+  
+  #start h1 {
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    font-weight: 700;
+  }
+  
+  #start h2 {
+    margin-top: 2rem;
+    color: white;
+  }
+  
+  #start h1::after {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 5px;
+    bottom: -20%;
+    left: 20%;
+    border-radius: 10px;
+  }
+  
+  #start h1::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 5px;
+    bottom: -20%;
+    right: 20%;
+    border-radius: 10px;
+  }
